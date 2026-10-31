@@ -14,7 +14,7 @@ Open http://127.0.0.1:3000. Production check: `npm run build`. Type check: `npm 
 ## Included
 
 - Responsive homepage with mobile navigation and section anchors.
-- Three industry scenarios with four stages each, play/pause, selectable steps, arrow-key navigation, reduced-motion support, and sample purchasing/dispatch reviews.
+- Three automatically guided industry stories, each with four animated stages, in-view playback, progress, pause/resume, manual inspection, keyboard navigation, reduced-motion support, and illustrated human reviews.
 - Wholesale distribution, manufacturing, and field services sections.
 - Operator, ERP, permissions, and onboarding sections.
 - Workshop and sign-in links to the existing GenLedge website. No forms submit data from this prototype.
