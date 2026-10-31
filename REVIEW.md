@@ -25,3 +25,7 @@ Replaced the single sales-order walkthrough with wholesale distribution, manufac
 ## Guided story update
 Replaced click-dependent scenario playback with automatic in-view progression (6.5-second steps; 10-second human-review illustration), sequential industry handoff, staged content entrances, activity state, progress bar and next-step hints. Playback observes the content panel and pauses when it leaves view or the document is hidden. Visitors can pause/resume; selecting a step pauses for inspection. Human review is now automatically illustrated and clearly labeled, with a manual sample-review control only while paused. No actual approval is performed. Respects reduced-motion preference by disabling autoplay and transitions. Browser checked pause/resume, manual step inspection, automatic industry handoff, automatic progression past review, mobile width and console. Reduced-motion and hidden-document listeners implemented but not browser-emulated during this pass. Production build passes.
 
+
+## Hero industry integration
+Removed the separate industry strip and placed wholesale distribution, manufacturing and field services inside the hero, between supporting copy and the workshop CTA. Preserved dark-green theme and the detailed industry section. Checked desktop1440 and mobile390 widths, label fit, all anchor destinations, Field services link navigation and console (no errors observed). Production build/TypeScript passed. Screenshots saved in chat outputs as hero-industries-desktop.png and hero-industries-mobile.png.
+
