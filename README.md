@@ -23,4 +23,4 @@ Open http://127.0.0.1:3000. Production check: `npm run build`. Type check: `npm 
 
 All order examples and dashboard records are illustrative sample data, not a connected product. No competitor customer logos, certifications, or performance claims are used. No backend is required.
 
-Industry photographs are downloaded from Unsplash. See `ASSETS.md` for sources. The original full-color GenLedge logo is used in the header and footer. Final imagery and copy need brand review before production. Booking links use the existing `/free-ai-workshop/` destination; no booking has been submitted.
+Industry photographs are downloaded from Unsplash. See `ASSETS.md` for sources. The original GenLedge logo shape is used in the header and footer, recolored dark green to match the requested theme. Final imagery and copy need brand review before production. Booking links use the existing `/free-ai-workshop/` destination; no booking has been submitted.

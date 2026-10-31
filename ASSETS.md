@@ -9,3 +9,4 @@ Downloaded from Unsplash for the local prototype. Not copied from competitor web
 - Logo: official full-color GenLedge SVG; original teal and turquoise colors preserved.
 
 - Official full-color logo: https://www.genledge.ai/genledge-logo-full-color.svg (original asset and colors preserved).
+`n- Dark-green logo variant: original GenLedge SVG geometry with both original fills changed to #235644, per requested theme.
