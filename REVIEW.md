@@ -17,3 +17,7 @@ Review before production: official logo, final copy and photographs, and worksho
 ## Operator showcase update
 Added one operator with Learn, Execute and Control views above the order walkthrough. All examples are labeled illustrations. Browser-tested tab switching, arrow-key navigation, review/reset feedback, and the order-workflow anchor. Desktop1440px and mobile390px checked; no horizontal overflow or console errors observed. Production build and TypeScript compilation passed. ERP link confirmed against current GenLedge website. No real recordings, customer documents, or production actions are connected.
 
+
+## Industry scenario update
+Replaced the single sales-order walkthrough with wholesale distribution, manufacturing, and field-service examples. All remain labeled sample data. Manufacturing and field-service playback pause at a human review point, with sample approval and reset. Users can inspect later steps directly as explicitly labeled post-review illustrations. Verified scenario resets, manufacturing approval/reset, field-service approval and last-stage content, manufacturing automatic pause, keyboard navigation and mobile width. No browser errors/warnings observed. Production build/TypeScript pass. Screenshots: outputs/scenario-review-desktop.png and outputs/scenarios-mobile.png in the chat workspace.
+
