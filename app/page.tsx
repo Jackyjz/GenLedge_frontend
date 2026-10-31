@@ -15,7 +15,7 @@ const industries = [
  {id:'manufacturing',number:'02',title:'Manufacturing',image:'manufacturing',alt:'Equipment and production operations in an industrial facility',desc:'Connect the work that keeps your production moving.',items:['Materials & procurement','Inventory & supply chain','Orders & operational coordination']},
  {id:'field-services',number:'03',title:'Field services',image:'field',alt:'Technician working on electrical equipment',desc:'Bring the office, dispatch, and the team in the field together.',items:['Scheduling & dispatch','Service orders & job management','Mobile teams & customer updates']},
 ];
-function Brand(){return <span className="brand">genledge<span className="brand-mark" aria-hidden="true"><i/><i/><i/></span></span>}
+function Brand(){return <span className="brand"><img className="brand-logo" src="/images/genledge-logo-full-color.svg" alt="GenLedge" width="160" height="48"/></span>}
 function CTA({children='Book a free workshop',light=false}:{children?:React.ReactNode,light?:boolean}){return <a className={`pill ${light?'pill-light':''}`} href={workshop} target="_blank" rel="noopener noreferrer">{children}<span><ArrowUpRight size={18}/></span></a>}
 
 export default function Home(){
