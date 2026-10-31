@@ -7,3 +7,31 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.small-spinner{border-color:#315c42}}
 @media(max-width:760px){.hero{grid-template-columns:minmax(0,1fr)}.hero-copy{min-width:0}.hero h1 br:nth-child(2){display:block}}
 @media(max-width:420px){.hero-task{top:18%}.photo-caption{font-size:21px}}
+
+/* Customer showcase: editorial composition selected in Product Design. */
+.customer-showcase{display:grid;grid-template-columns:46% 54%;padding:65px 4.5% 70px;border-bottom:1px solid var(--line);scroll-margin-top:20px}
+.customer-story{padding-right:42px;min-width:0}
+.customer-story>.eyebrow{font-weight:400;color:var(--muted)}
+.customer-story h2{font-size:clamp(44px,4.8vw,72px);line-height:1.02;letter-spacing:-.065em;margin:27px 0 32px}
+.customer-story h2>span{color:var(--green)}
+.customer-story-bottom{display:grid;grid-template-columns:.9fr 1.1fr;gap:26px;align-items:start}
+.customer-story-bottom p{font-size:14px;line-height:1.6;color:var(--muted);max-width:240px}
+.customer-story-bottom .customer-intro-detail{font-size:12px;margin-top:18px;line-height:1.7}
+.customer-filmstrip{display:grid;gap:6px;min-width:0}
+.customer-filmstrip img{height:91px;object-fit:cover;filter:saturate(.55)}
+.customer-filmstrip img:nth-child(2){object-position:center 40%}
+.customer-filmstrip img:nth-child(3){object-position:center 35%}
+.customer-logo-grid{border-left:1px solid var(--line);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));padding-left:18px}
+.customer-logo-slot{padding:15px 27px 30px;min-width:0;display:flex;flex-direction:column;justify-content:center;border-bottom:1px solid var(--line);min-height:190px}
+.customer-logo-slot:nth-child(odd){border-right:1px solid var(--line)}
+.customer-logo-slot:nth-last-child(-n+2){border-bottom:0}
+.customer-slot-label{display:flex;align-items:center;gap:12px;font-size:8px;line-height:1.7;letter-spacing:.75px;text-transform:uppercase;color:var(--muted);margin-bottom:27px}
+.customer-slot-label>span{color:#b1b6aa}
+.customer-wordmark{font-size:clamp(21px,2.25vw,34px);letter-spacing:-1.5px;line-height:1.2;font-weight:400;white-space:nowrap}
+.customer-pending{display:block;font-size:12px;line-height:1.5;color:#747b70;margin-top:10px}
+.customer-confirmation>p{font-size:25px;line-height:1.2;letter-spacing:-1px}
+.customer-confirmation>.customer-pending{font-size:10px;max-width:190px}
+@media(min-width:1500px){.customer-filmstrip img{height:105px}.customer-logo-slot{min-height:210px}}
+@media(max-width:1050px){.customer-showcase{grid-template-columns:44% 56%;padding-top:55px;padding-bottom:55px}.customer-story{padding-right:28px}.customer-story-bottom{grid-template-columns:1fr;gap:22px}.customer-story-bottom p{max-width:none}.customer-story-bottom .customer-intro-detail{margin-top:10px}.customer-filmstrip{grid-template-columns:repeat(3,minmax(0,1fr));gap:5px}.customer-filmstrip img{height:120px}.customer-logo-grid{padding-left:12px}.customer-logo-slot{padding:15px 18px 25px;min-height:185px}.customer-slot-label{font-size:7px;gap:7px}.customer-wordmark{font-size:24px;letter-spacing:-1.3px}.customer-confirmation>p{font-size:24px}}
+@media(max-width:760px){.customer-showcase{grid-template-columns:1fr;padding:48px 6% 45px;gap:35px}.customer-story{padding-right:0}.customer-story h2{font-size:54px;margin:23px 0 27px}.customer-story-bottom{grid-template-columns:1fr 1fr;gap:24px}.customer-story-bottom p{font-size:13px}.customer-story-bottom .customer-intro-detail{font-size:11px;margin-top:16px}.customer-filmstrip{grid-template-columns:1fr;gap:5px}.customer-filmstrip img{height:74px}.customer-logo-grid{padding-left:0;border-left:0;border-top:1px solid var(--line)}.customer-logo-slot{padding:22px 15px;min-height:170px}.customer-logo-slot:nth-child(odd){padding-left:0}.customer-slot-label{margin-bottom:23px;font-size:7px;gap:7px}.customer-wordmark{font-size:23px;letter-spacing:-1.3px}.customer-pending{font-size:11px}.customer-confirmation>p{font-size:22px}.customer-confirmation>.customer-pending{font-size:9px}}
+@media(max-width:360px){.customer-wordmark{font-size:20px}.customer-story h2{font-size:49px}.customer-logo-slot{padding-right:10px;padding-left:10px}.customer-confirmation>p{font-size:20px}}
