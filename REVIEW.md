@@ -13,3 +13,7 @@ Completed: October 31, 2026.
 - Reduced-motion behavior implemented via media query and preference listener; not browser-emulated in this verification.
 
 Review before production: official logo, final copy and photographs, and workshop booking destination. Existing GenLedge booking URL is linked; no booking form has been submitted or end-to-end tested. Demo records are illustrative. This is a local prototype, not a deployed replacement for the live site.
+
+## Operator showcase update
+Added one operator with Learn, Execute and Control views above the order walkthrough. All examples are labeled illustrations. Browser-tested tab switching, arrow-key navigation, review/reset feedback, and the order-workflow anchor. Desktop1440px and mobile390px checked; no horizontal overflow or console errors observed. Production build and TypeScript compilation passed. ERP link confirmed against current GenLedge website. No real recordings, customer documents, or production actions are connected.
+
